@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: landing
+    schema: RAW   # Your Snowflake landing schema
+    database: DBT_DEV
+    tables:
+      - name: orders
+      #- name: customers_raw
